@@ -2,6 +2,7 @@
     margin: 0 auto;
 }
 body{
+    position: relative;
     text-align: center;
     background-color: pink;
 }
@@ -92,26 +93,26 @@ font-size: 13.5px;
 }
 
 .accordion ul li:nth-child(1) {
-background-image: url(img/aot1.png);
+background-image: url(imgs/aot1.png);
 }
 
 .accordion ul li:nth-child(2) {
-background-image: url(img/aot2.png);
+background-image: url(imgs/aot2.png);
 }
 .accordion ul li:nth-child(3) {
-background-image: url(img/aot3.png);
+background-image: url(imgs/aot3.png);
 }
 
 .accordion ul li:nth-child(4) {
-background-image: url(img/aot4.png);
+background-image: url(imgs/aot4.png);
 }
 
 .accordion ul li:nth-child(5) {
-background-image: url(img/aot5.png);
+background-image: url(imgs/aot5.png);
 }
 
 .accordion ul li:nth-child(6) {
-background-image: url(img/aot6.png);
+background-image: url(imgs/aot6.png);
 }
 
 .accordion ul:hover li, .accordion ul:focus-within li {
@@ -197,6 +198,9 @@ text-decoration: underline;
 }
 
 audio{
-    /* display: none; */
-
+    display: block;
+    position: absolute;
+    margin-top: -967px;
+    margin-left: 1px;
+    
 }
